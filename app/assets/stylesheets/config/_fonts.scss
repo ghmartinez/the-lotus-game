@@ -6,11 +6,9 @@
 $body-font: "Lato", "Helvetica", "sans-serif";
 $headers-font: "Playfair Display", "Helvetica", "serif";
 
-.fancy-font {
-  font-family: 'Tangerine', cursive;
-}
-
-.centered-text {
-  text-align: center;
-  margin: auto;
+h1 {
+  font-family: 'Tangerine';
+  color: hotpink;
+  text-shadow: 1px 1px black;
+  line-height: 0.6em;
 }
