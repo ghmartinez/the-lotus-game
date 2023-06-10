@@ -60,6 +60,9 @@ gem "cloudinary"
 # Rufus Scheduler gem
 gem "rufus-scheduler"
 
+# html beautifier gem
+gem "htmlbeautifier"
+
 gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
 gem "simple_form", github: "heartcombo/simple_form"
