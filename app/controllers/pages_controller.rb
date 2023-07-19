@@ -47,7 +47,7 @@ class PagesController < ApplicationController
 
       else
         current_user.missions.last.update(status: "completed", winner_user: current_user)
-        @mensaje = "Has completado la misión, reina! 💁‍♀️"
+        @mensaje = "Has completado la misión. 🎉"
 
         @mission = Mission.find_by(user: @user)
         @new_mission = @mission.dup
