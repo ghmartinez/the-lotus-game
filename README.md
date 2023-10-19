@@ -1,6 +1,6 @@
 # The Lotus Game Web Application
 
-Welcome to the official repository of **The Lotus Game**, a web application built using Ruby on Rails. The Lotus Game is a strategic challenge-based game where players can create accounts, take on challenges, and compete to win challenges from other players.
+Welcome to the official repository of **The Lotus Game**, a web application built using Ruby on Rails. The Lotus Game is a strategic challenge-based game where players can create accounts, take on challenges, and compete to win challenges from other players. 🪷
 
 ## Table of Contents
 
