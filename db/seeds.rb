@@ -3,6 +3,8 @@ Bungalow.destroy_all
 User.destroy_all
 Challenge.destroy_all
 
+# Necesito hacer que los challenges sea generados por el admin del juego.
+
 puts "Creating challenges..."
 challenges = [
   "Conseguir que target se haga una selfie contigo.",
