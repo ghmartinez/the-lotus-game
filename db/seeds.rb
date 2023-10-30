@@ -4,6 +4,7 @@ User.destroy_all
 Challenge.destroy_all
 
 # Necesito hacer que los challenges sea generados por el admin del juego.
+# Intentar aplicar AI a la creación de challenges a tavés de una API.
 
 puts "Creating challenges..."
 challenges = [
