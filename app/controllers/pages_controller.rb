@@ -54,6 +54,7 @@ class PagesController < ApplicationController
         @new_mission.update(user: current_user)
 
         # TODO: Encontrar las misiones con el mismo target user y ponerlas con status completed
+        # Ésta debería ser mi gran misión.
         Mission.where(target_user: @mission.target_user).update_all(status: "completed", winner_user: current_user)
         # Comprobar que la línea de arriba funciona correctamente.
       end
